@@ -16,5 +16,4 @@ class Song < ActiveRecord::Base
         Artist.create = self.artist
         Artist.save
     end
-  end
 end
