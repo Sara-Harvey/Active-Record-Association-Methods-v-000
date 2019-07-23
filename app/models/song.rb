@@ -13,7 +13,6 @@ class Song < ActiveRecord::Base
     # Hint: you won't want to create an artist record every time this method is called, only if an Drake is *not found*
 
     self.artists.includes?
-    binding.pry
       if false 
       new_artist = Artist.create
       new_artist = self.artist
