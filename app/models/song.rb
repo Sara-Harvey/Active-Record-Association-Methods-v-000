@@ -19,3 +19,4 @@ class Song < ActiveRecord::Base
       else nil
   end
 end
+end
