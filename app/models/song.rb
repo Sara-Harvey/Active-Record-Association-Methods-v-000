@@ -18,4 +18,5 @@ class Song < ActiveRecord::Base
         new_artist = self.artist
       else nil
     end
+    
 end
