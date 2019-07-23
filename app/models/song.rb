@@ -14,7 +14,8 @@ class Song < ActiveRecord::Base
 
     artist_array = self.artist
     artist_array.!includes?(Artist)
-        Artist.create = self.artist
-        Artist.save
+        artist = Artist.create 
+        artist = self.artist
+        artist.save
   end
 end
