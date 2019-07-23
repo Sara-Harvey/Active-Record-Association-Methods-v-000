@@ -17,6 +17,5 @@ class Song < ActiveRecord::Base
       if false new_artist = Artist.create
       new_artist = self.artist
       else nil
-      end
   end
 end
