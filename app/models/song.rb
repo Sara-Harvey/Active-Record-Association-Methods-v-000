@@ -14,7 +14,7 @@ class Song < ActiveRecord::Base
 
     self.artists.includes?
       if false 
-      new_artist = Artist.create
-      new_artist = self.artist
-  end
+        new_artist = Artist.create
+        new_artist = self.artist
+      end
 end
